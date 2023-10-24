@@ -11,5 +11,6 @@ export const useProfileStore = defineStore('profile', {
     allLikes: 0,
   }),
   actions: {
-  }
+  },
+  persist: true
 })

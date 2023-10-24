@@ -12,5 +12,6 @@ export const useGeneralStore = defineStore('general', {
     following: null,
   }),
   actions: {
-  }
+  },
+  persist: true
 })
